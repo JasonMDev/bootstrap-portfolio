@@ -416,8 +416,14 @@
     > li > a {
       color: @navbar-default-link-color;
 
+      .icon { // added rule set
+        color: @gray-light;
+      }
+
       &:hover,
-      &:focus {
+      &:focus,
+      &:hover .icon, // added selector
+      &:focus .icon { // added selector 
         color: @navbar-default-link-hover-color;
         background-color: @navbar-default-link-hover-bg;
       }
@@ -425,7 +431,10 @@
     > .active > a {
       &,
       &:hover,
-      &:focus {
+      &:focus,
+      .icon, // added selector
+      &:hover .icon, // added selector
+      &:focus .icon { // added selector 
         color: @navbar-default-link-active-color;
         background-color: @navbar-default-link-active-bg;
       }
