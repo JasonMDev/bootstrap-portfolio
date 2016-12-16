@@ -8559,6 +8559,9 @@ button.close {
 }
 .carousel {
   position: relative;
+  padding-top: 4px;
+  padding-bottom: 28px;
+  background-color: #ccc;
 }
 .carousel-inner {
   position: relative;
