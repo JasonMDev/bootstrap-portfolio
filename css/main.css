@@ -8574,10 +8574,24 @@ button.close {
   -webkit-transition: 0.6s ease-in-out left;
   -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
+  max-height: 640px;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  min-width: 100%;
+}
+@media (min-width: 992px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin-top: -40px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin-top: -60px;
+  }
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
