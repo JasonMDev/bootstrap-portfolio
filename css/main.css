@@ -8680,7 +8680,8 @@ button.close {
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right {
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon {
   position: absolute;
   top: 50%;
   margin-top: -10px;
@@ -8688,14 +8689,14 @@ button.close {
   display: inline-block;
 }
 .carousel-control .icon-prev,
-.carousel-control .glyphicon-chevron-left {
-  left: 50%;
-  margin-left: -10px;
+.carousel-control .glyphicon-chevron-left,
+.carousel-control.left .icon {
+  left: 20%;
 }
 .carousel-control .icon-next,
-.carousel-control .glyphicon-chevron-right {
-  right: 50%;
-  margin-right: -10px;
+.carousel-control .glyphicon-chevron-right,
+.carousel-control.right .icon {
+  right: 20%;
 }
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
