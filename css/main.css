@@ -8730,7 +8730,8 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
+  margin-bottom: 0;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -8741,21 +8742,16 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
+  width: 18px;
+  height: 18px;
   text-indent: -999px;
-  border: 1px solid #fff;
+  background-color: #aeaeae;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
 }
+.carousel-indicators li:hover,
 .carousel-indicators .active {
-  margin: 0;
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
+  background-color: #ededed;
 }
 .carousel-caption {
   position: absolute;
@@ -8795,8 +8791,15 @@ button.close {
     right: 20%;
     padding-bottom: 30px;
   }
-  .carousel-indicators {
-    bottom: 20px;
+}
+.page-contents {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .page-contents [class^="col"] {
+    clear: both;
+    padding-bottom: 40px;
   }
 }
 .clearfix:before,
