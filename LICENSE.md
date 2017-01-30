@@ -7,12 +7,12 @@ Property of Jason Mans
 * [Bootstrap](http://getbootstrap.com/)
 
 # License
-Copyright (c) 2016 Jason Mans
-Copyright (c) 2016 HTML5 Boilerplate
-Copyright (c) 2011-2016 Twitter, Inc.
-Copyright (c) 2011-2016 The Bootstrap Authors
-Copyright (c) 2014 Bootstrap Site Blueprints - ISBN 9781782164524 © Packt Publishing Limited. All Rights 
-Copyright (c) 2014 David Cochran and Ian Whitley
+* Copyright (c) 2016 Jason Mans
+* Copyright (c) 2016 HTML5 Boilerplate
+* Copyright (c) 2011-2016 Twitter, Inc.
+* Copyright (c) 2011-2016 The Bootstrap Authors
+* Copyright (c) 2014 Bootstrap Site Blueprints - ISBN 9781782164524 © Packt Publishing Limited. All Rights 
+* Copyright (c) 2014 David Cochran and Ian Whitley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

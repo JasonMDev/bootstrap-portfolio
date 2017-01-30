@@ -5,7 +5,7 @@ A demo portfolio built by leveraging best practises from the HTML5 Boilerplate a
 
 This is based on the book [*Bootstrap Site Blueprints*](https://www.packtpub.com/web-development/bootstrap-site-blueprints) written by David Cochran, Ian Whitley and published in Feb 2014. 
 
-The general outline was followed, however the latest versions of the HTML5 boilerplate and bootstrap libraries at the time were used.
+The general outline was followed, however the latest versions of the HTML5 boilerplate and bootstrap libraries at the time were incorporated.
 
 ## Feautures
 These are some of the feautures that have been added to the web page (*text modified from above mentioned book*):
