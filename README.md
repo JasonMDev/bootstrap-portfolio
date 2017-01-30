@@ -8,8 +8,8 @@ This is based on the book [*Bootstrap Site Blueprints*](https://www.packtpub.com
 The general outline was followed, however the latest versions of the HTML5 boilerplate and bootstrap libraries at the time were incorporated.
 
 ## Feautures
-These are some of the feautures that have been added to the web page (*text modified from above mentioned book*):
-*   Set up a very solid markup structure provided by the HTML5 Boilerplate
+These are some of the features that have been added to the web page (*text modified from above mentioned book*):
+*   Set-up of a very solid markup structure provided by the HTML5 Boilerplate
 *   Leveraged Bootstrap's responsive navbar, carousel, and grid system
 *   Customized several of Bootstrap's LESS files
 *   Created LESS files and folded them seamlessly into the project

@@ -1,12 +1,10 @@
-The MIT License
+# The MIT License
 
-Property of Jason Mans
-
-# Includes open source libraries
+## Includes open source libraries
 * [HTML5 Boilerplate](http://h5bp.com/)
 * [Bootstrap](http://getbootstrap.com/)
 
-# License
+## License
 * Copyright (c) 2016 Jason Mans
 * Copyright (c) 2016 HTML5 Boilerplate
 * Copyright (c) 2011-2016 Twitter, Inc.
